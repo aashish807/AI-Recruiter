@@ -1,0 +1,18 @@
+Senior Backend Engineer - Cloud Infrastructure
+Location: Remote (US)
+Industry: Fintech / Payment Gateways
+
+About the role:
+We are seeking a Senior Backend Engineer to join our core cloud platform team. You will be responsible for designing and building highly scalable APIs and containerized microservices.
+
+Requirements:
+- 5+ years of experience in backend development.
+- Strong proficiency in Python, FastAPI, and Go.
+- Hands-on experience with AWS cloud services (EKS, RDS, S3).
+- Must have experience with Docker and Kubernetes container orchestration.
+- Excellent communication and collaboration skills.
+
+Nice to have:
+- AWS Certified Solutions Architect certification.
+- Experience with infrastructure as code (Terraform).
+- Master's degree in Computer Science.

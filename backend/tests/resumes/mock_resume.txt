@@ -1,0 +1,26 @@
+Sarah Jenkins
+Email: sarah.j@gmail.com
+Phone: 555-019-2834
+Address: Austin, Texas
+
+Summary:
+Lead Backend Engineer with 8 years of experience building scalable microservices in Python, Go, and AWS. Active Docker and Kubernetes expert.
+
+Experience:
+Lead Engineer | Techflow Inc | 2021 - Present
+- Architected a Python FastAPI microservice platform deployed on AWS EKS (Kubernetes).
+- Guided a team of 3 developers, adopting CI/CD workflows and automated testing.
+
+Software Engineer | DevGroup | 2018 - 2021
+- Developed REST APIs in Go and PostgreSQL, improving query latency by 35%.
+- Maintained Docker environments for internal developer workflows.
+
+Education:
+B.S. in Computer Science | University of Texas at Austin (2014 - 2018)
+
+Skills:
+Python, Go, FastAPI, AWS, Docker, Kubernetes, SQL, PostgreSQL, REST APIs
+
+Projects:
+- CloudDeploy: Open-source developer utility for packaging Helm charts. Built with Go and Docker.
+- API-Metrics: Go service tracking metrics in Prometheus.

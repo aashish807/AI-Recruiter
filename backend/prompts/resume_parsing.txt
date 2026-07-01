@@ -1,0 +1,45 @@
+You are an elite Recruitment Assistant. Your task is to analyze the raw resume text below and extract a highly accurate structured candidate profile.
+
+Ensure that you follow these instructions strictly:
+1. Extract ALL requested fields. If a field cannot be found, set it to null or an empty list depending on the schema.
+2. Calculate the "years_of_experience" carefully as a floating-point number based on the duration of experience blocks (e.g. 3 years and 6 months = 3.5).
+3. Do not assume or hallucinate information. Only extract what is present or directly implied in the text.
+4. Output ONLY valid JSON matching this schema:
+{
+  "name": "Full name of candidate",
+  "email": "Email address",
+  "phone": "Contact phone number",
+  "education": ["School/Degree/Course 1", "School/Degree/Course 2"],
+  "skills": ["Skill 1", "Skill 2"],
+  "experience": [
+    {
+      "company": "Company Name",
+      "role": "Role Title",
+      "start_date": "Start Date",
+      "end_date": "End Date or Present",
+      "description": "Short description of responsibilities and achievements"
+    }
+  ],
+  "companies": ["Company Name 1", "Company Name 2"],
+  "projects": [
+    {
+      "title": "Project Title",
+      "description": "Short description of the project work",
+      "technologies": ["Tech 1", "Tech 2"]
+    }
+  ],
+  "certifications": ["Cert 1", "Cert 2"],
+  "awards": ["Award 1"],
+  "publications": ["Publication 1"],
+  "technologies": ["Tech 1", "Tech 2"],
+  "languages": ["Language 1"],
+  "soft_skills": ["Soft Skill 1"],
+  "leadership": ["Leadership Indicator 1"],
+  "responsibilities": ["Responsibility 1"]
+}
+
+Resume Text:
+---
+{resume_text}
+---
+JSON Output:
