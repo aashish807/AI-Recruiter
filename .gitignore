@@ -11,3 +11,5 @@ backend/vector_db/indices/
 backend/exports/saved/
 backend/reports/saved/
 .DS_Store
+candidates.jsonl
+*.gz

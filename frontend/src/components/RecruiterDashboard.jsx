@@ -765,7 +765,7 @@ export default function RecruiterDashboard() {
                 <span className="panel-step">03</span>
                 <h2>Evaluation Pipeline</h2>
                 {candidates.length > 0 && (
-                  <button className="mini-action-btn export-btn" onClick={handleExport} title="Export pipeline as JSON">
+                  <button className="mini-action-btn export-btn" onClick={() => handleExport('xlsx')} title="Download Results (Excel)">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
                     </svg>

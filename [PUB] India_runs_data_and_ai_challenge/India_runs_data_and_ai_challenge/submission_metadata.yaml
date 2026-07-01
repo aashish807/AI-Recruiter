@@ -1,0 +1,42 @@
+team_name: "AI Recruiter Team"
+
+primary_contact:
+  name: "Hackathon Participant"
+  email: "participant@example.com"
+  phone: "+91-9999999999"
+
+team_members:
+  - name: "Hackathon Participant"
+    email: "participant@example.com"
+    role: "ML Engineer"
+
+github_repo: "https://github.com/YOUR_USERNAME/AI_Recruiter_Hackathon"
+sandbox_link: "https://colab.research.google.com/drive/YOUR_SANDBOX_LINK"
+reproduce_command: "python ranker.py candidates.jsonl team_ai_recruiter.csv"
+
+compute:
+  platform: "MacBook Pro M-Series"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.10+"
+  os: "macOS"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Gemini 3.1 Pro"
+
+ai_usage_summary: |
+  Used Gemini to analyze the job description and candidate schema, design a 5-minute optimized heuristic ranker, identify honeypots, and implement the ranking logic in Python without using LLM APIs during runtime.
+
+methodology_summary: |
+  Rule-based ranker with 4 scoring components: tech skills match (with weighting based on proficiency and JD terms), experience years (bell-curve scoring peaking at 6-8 years), industry match (down-weighting pure IT services), and a behavioral signal multiplier (heavily penalizing low response rate and inactivity). Explicit honeypot detection drops candidates with impossible skill durations or >45 years experience. Runtime is ~4 seconds for 100K candidates on CPU.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
