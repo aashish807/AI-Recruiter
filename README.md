@@ -1,4 +1,4 @@
-# 🚀 AI Recruiter
+# AI Recruiter
 
 **Next-Generation Autonomous Talent Acquisition & Ranking System**
 
@@ -10,21 +10,21 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 **AI Recruiter** is an end-to-end intelligent platform that automates the recruitment pipeline. By leveraging the power of Large Language Models (LLMs), LangChain, LangGraph, and Vector Databases (FAISS), it parses resumes, extracts key skills, matches candidates to job descriptions, and intelligently ranks them.
 
 Built for scale and speed, this project is perfect for HR teams wanting to cut down resume screening time by 90% and identify top talent with AI-driven explainability.
 
-## ✨ Key Features
+## Key Features
 
-- 📄 **Omni-Format Resume Parsing**: Seamlessly extract text from PDFs, DOCX, and Excel files.
-- 🧠 **Intelligent Candidate Ranking**: Uses LLMs and vector embeddings to match candidate profiles against job requirements semantically.
-- 💬 **Explainable AI (XAI)**: Provides clear, generated reasoning on *why* a candidate was ranked highly and what their skill gaps might be.
-- 📊 **Interactive Dashboard**: A sleek React-based UI to view candidate profiles, manage job descriptions, and review AI reports.
-- 🐳 **Containerized Architecture**: Fully Dockerized for a "one-click" setup experience.
+-  **Omni-Format Resume Parsing**: Seamlessly extract text from PDFs, DOCX, and Excel files.
+-  **Intelligent Candidate Ranking**: Uses LLMs and vector embeddings to match candidate profiles against job requirements semantically.
+-  **Explainable AI (XAI)**: Provides clear, generated reasoning on *why* a candidate was ranked highly and what their skill gaps might be.
+-  **Interactive Dashboard**: A sleek React-based UI to view candidate profiles, manage job descriptions, and review AI reports.
+-  **Containerized Architecture**: Fully Dockerized for a "one-click" setup experience.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Framework**: FastAPI (Python)
@@ -39,7 +39,7 @@ Built for scale and speed, this project is perfect for HR teams wanting to cut d
 ### Infrastructure
 - **Deployment**: Docker, Docker Compose
 
-## 🏗️ Architecture
+## Architecture
 
 1. **Ingestion**: Resumes are uploaded via the React frontend to the FastAPI backend.
 2. **Processing & Extraction**: Documents are parsed, chunked, and embedded into the FAISS vector database.
@@ -49,7 +49,7 @@ Built for scale and speed, this project is perfect for HR teams wanting to cut d
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - [Docker & Docker Compose](https://www.docker.com/get-started)
@@ -65,7 +65,7 @@ Create a `.env` file in the root of the project and add your OpenAI API key:
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-### 🐳 Quick Start (Recommended - Docker)
+###  Quick Start (Recommended - Docker)
 
 The easiest way to get the app running is via Docker Compose, which will spin up the Postgres database, FastAPI backend, and React frontend simultaneously.
 
@@ -83,7 +83,7 @@ To stop the services:
 docker-compose down
 ```
 
-### 💻 Local Setup (Without Docker)
+### Local Setup (Without Docker)
 
 If you prefer to run the services locally for development:
 
@@ -105,18 +105,18 @@ npm run dev
 
 ---
 
-## 🔮 Future Roadmap (Hackathon Ready)
+## Future Roadmap (Hackathon Ready)
 
 - [ ] **Automated Interview Outreach**: Integrate with email APIs (SendGrid/Nylas) to automatically email top candidates.
 - [ ] **Video Interview Analysis**: Incorporate speech-to-text to analyze candidate video pitches.
 - [ ] **Bias Mitigation Module**: Introduce a dedicated agent to strip PII (Personally Identifiable Information) before evaluation to ensure unbiased ranking.
 - [ ] **Multi-Agent Negotiations**: Implement AI agents that can simulate salary negotiations based on candidate skills and market data.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 # AI-Recruiter
